@@ -1,0 +1,11 @@
+C:\Users\BH\AppData\Local\Temporary Projects\DeltaTwoPhaseFlowProblem\bin\Debug\DeltaTwoPhaseFlowProblem.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\DeltaTwoPhaseFlowProblem\DeltaTwoPhaseFlowProblem\bin\Debug\DeltaTwoPhaseFlowProblem.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\DeltaTwoPhaseFlowProblem\DeltaTwoPhaseFlowProblem\obj\Debug\DeltaTwoPhaseFlowProblem.vbprojResolveAssemblyReference.cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\DeltaTwoPhaseFlowProblem\DeltaTwoPhaseFlowProblem\obj\Debug\DeltaTwoPhaseFlowProblem.Resources.resources
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\DeltaTwoPhaseFlowProblem\DeltaTwoPhaseFlowProblem\obj\Debug\DeltaTwoPhaseFlowProblem.vbproj.GenerateResource.Cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\DeltaTwoPhaseFlowProblem\DeltaTwoPhaseFlowProblem\obj\Debug\DeltaTwoPhaseFlowProblem.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\DeltaTwoPhaseFlowProblem\DeltaTwoPhaseFlowProblem\bin\Debug\DeltaTwoPhaseFlowProblem.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\DeltaTwoPhaseFlowProblem\DeltaTwoPhaseFlowProblem\bin\Debug\DeltaTwoPhaseFlowProblem.pdb
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\DeltaTwoPhaseFlowProblem\DeltaTwoPhaseFlowProblem\bin\Debug\DeltaTwoPhaseFlowProblem.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\DeltaTwoPhaseFlowProblem\DeltaTwoPhaseFlowProblem\obj\Debug\DeltaTwoPhaseFlowProblem.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\DeltaTwoPhaseFlowProblem\DeltaTwoPhaseFlowProblem\obj\Debug\DeltaTwoPhaseFlowProblem.pdb

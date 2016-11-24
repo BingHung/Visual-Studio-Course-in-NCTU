@@ -1,0 +1,26 @@
+C:\Users\LBH\AppData\Local\Temporary Projects\Bouncing Ball\bin\Debug\Bouncing Ball.exe.config
+C:\Users\LBH\AppData\Local\Temporary Projects\Bouncing Ball\bin\Debug\Bouncing Ball.exe
+C:\Users\LBH\AppData\Local\Temporary Projects\Bouncing Ball\bin\Debug\Bouncing Ball.pdb
+C:\Users\LBH\AppData\Local\Temporary Projects\Bouncing Ball\bin\Debug\Bouncing Ball.xml
+C:\Users\LBH\AppData\Local\Temporary Projects\Bouncing Ball\obj\Debug\Bouncing Ball.vbprojResolveAssemblyReference.cache
+C:\Users\LBH\AppData\Local\Temporary Projects\Bouncing Ball\obj\Debug\Bouncing_Ball.Form1.resources
+C:\Users\LBH\AppData\Local\Temporary Projects\Bouncing Ball\obj\Debug\Bouncing_Ball.Resources.resources
+C:\Users\LBH\AppData\Local\Temporary Projects\Bouncing Ball\obj\Debug\Bouncing Ball.vbproj.GenerateResource.Cache
+C:\Users\LBH\AppData\Local\Temporary Projects\Bouncing Ball\obj\Debug\Bouncing Ball.exe
+C:\Users\LBH\AppData\Local\Temporary Projects\Bouncing Ball\obj\Debug\Bouncing Ball.xml
+C:\Users\LBH\AppData\Local\Temporary Projects\Bouncing Ball\obj\Debug\Bouncing Ball.pdb
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\bin\Debug\Bouncing Ball.exe.config
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\obj\Debug\Bouncing Ball.exe
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\obj\Debug\Bouncing Ball.xml
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\obj\Debug\Bouncing Ball.pdb
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\bin\Debug\Bouncing Ball.exe
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\bin\Debug\Bouncing Ball.pdb
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\bin\Debug\Bouncing Ball.xml
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\obj\Debug\Bouncing Ball.vbprojResolveAssemblyReference.cache
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\obj\Debug\Bouncing_Ball.Form1.resources
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\obj\Debug\Bouncing_Ball.Resources.resources
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\obj\Debug\Bouncing Ball.vbproj.GenerateResource.Cache
+C:\Users\BH\Dropbox\STORE\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\bin\Debug\Bouncing Ball.exe.config
+C:\Users\BH\Dropbox\STORE\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\obj\Debug\Bouncing Ball.exe
+C:\Users\BH\Dropbox\STORE\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\obj\Debug\Bouncing Ball.xml
+C:\Users\BH\Dropbox\STORE\MASTER\VB_MASTER\Week01_Thu_Course\Bouncing Ball\Bouncing Ball\obj\Debug\Bouncing Ball.pdb

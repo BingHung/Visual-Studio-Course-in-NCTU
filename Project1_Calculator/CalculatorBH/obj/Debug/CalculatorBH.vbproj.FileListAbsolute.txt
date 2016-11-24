@@ -1,0 +1,23 @@
+C:\Users\LBH\AppData\Local\Temporary Projects\CalculatorBH\bin\Debug\CalculatorBH.exe.config
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\bin\Debug\CalculatorBH.exe.config
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\bin\Debug\CalculatorBH.exe
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\bin\Debug\CalculatorBH.pdb
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\bin\Debug\CalculatorBH.xml
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.vbprojResolveAssemblyReference.cache
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.Form1.resources
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.Resources.resources
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.vbproj.GenerateResource.Cache
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.exe
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.xml
+C:\Users\LBH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.pdb
+C:\Users\BH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\bin\Debug\CalculatorBH.exe.config
+C:\Users\BH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.exe
+C:\Users\BH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.xml
+C:\Users\BH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.pdb
+C:\Users\BH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\bin\Debug\CalculatorBH.exe
+C:\Users\BH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\bin\Debug\CalculatorBH.pdb
+C:\Users\BH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\bin\Debug\CalculatorBH.xml
+C:\Users\BH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.vbprojResolveAssemblyReference.cache
+C:\Users\BH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.Form1.resources
+C:\Users\BH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.Resources.resources
+C:\Users\BH\Dropbox\MASTER\VB_MASTER\CalculatorBH\CalculatorBH\obj\Debug\CalculatorBH.vbproj.GenerateResource.Cache
