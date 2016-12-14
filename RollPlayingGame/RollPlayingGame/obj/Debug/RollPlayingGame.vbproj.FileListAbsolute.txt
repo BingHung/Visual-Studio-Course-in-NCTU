@@ -1,0 +1,13 @@
+C:\Users\BH\AppData\Local\Temporary Projects\RollPlayingGame\bin\Debug\RollPlayingGame.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\bin\Debug\RollPlayingGame.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\bin\Debug\RollPlayingGame.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\bin\Debug\RollPlayingGame.pdb
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\bin\Debug\RollPlayingGame.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\obj\Debug\RollPlayingGame.vbprojResolveAssemblyReference.cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\obj\Debug\RollPlayingGame.Form1.resources
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\obj\Debug\RollPlayingGame.Resources.resources
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\obj\Debug\RollPlayingGame.PlayAgain.resources
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\obj\Debug\RollPlayingGame.vbproj.GenerateResource.Cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\obj\Debug\RollPlayingGame.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\obj\Debug\RollPlayingGame.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\obj\Debug\RollPlayingGame.pdb
