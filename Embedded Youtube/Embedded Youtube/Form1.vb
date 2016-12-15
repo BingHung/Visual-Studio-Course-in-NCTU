@@ -14,6 +14,7 @@
         'ImageList1.ImageSize = New Size(250, 180)
         'ImageList1.ColorDepth = ColorDepth.Depth32Bit
         'ShowPic()
+
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         'PictureBox1.Image = Image.FromFile("F1.jpg")
         PictureBox1.Image = Image.FromFile(Photo(num) & ".jpg")
