@@ -115,6 +115,8 @@
         HeatExchangerDesign.HW = 7
 
         StudentLevel.Text = "Student Level : " + Str(1)
+        Level = 1
+        Count = 0
 
         GetEnemy()
     End Sub
