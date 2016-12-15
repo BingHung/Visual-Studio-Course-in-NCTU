@@ -1,0 +1,21 @@
+C:\Users\BH\AppData\Local\Temporary Projects\Embedded Youtube\bin\Debug\Embedded Youtube.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\bin\Debug\Embedded Youtube.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\obj\Debug\Interop.WMPLib.dll
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\obj\Debug\Embedded Youtube.vbproj.ResolveComReference.cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\bin\Debug\Embedded Youtube.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\bin\Debug\Embedded Youtube.pdb
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\bin\Debug\Embedded Youtube.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\bin\Debug\Interop.WMPLib.dll
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\obj\Debug\Embedded Youtube.vbprojResolveAssemblyReference.cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\obj\Debug\Embedded_Youtube.Form1.resources
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\obj\Debug\Embedded_Youtube.Resources.resources
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\obj\Debug\Embedded Youtube.vbproj.GenerateResource.Cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\obj\Debug\Embedded Youtube.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\obj\Debug\Embedded Youtube.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\obj\Debug\Embedded Youtube.pdb
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\bin\Debug\Interop.SHDocVw.dll
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\bin\Debug\AxInterop.SHDocVw.dll
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\obj\Debug\Interop.SHDocVw.dll
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Embedded Youtube\Embedded Youtube\obj\Debug\AxInterop.SHDocVw.dll
