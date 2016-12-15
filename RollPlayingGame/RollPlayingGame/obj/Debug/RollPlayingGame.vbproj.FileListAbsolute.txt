@@ -11,3 +11,4 @@ C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame
 C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\obj\Debug\RollPlayingGame.exe
 C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\obj\Debug\RollPlayingGame.xml
 C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\obj\Debug\RollPlayingGame.pdb
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\RollPlayingGame\RollPlayingGame\obj\Debug\RollPlayingGame.Upgrade.resources

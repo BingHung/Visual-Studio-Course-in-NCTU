@@ -11,6 +11,9 @@
     Const MagicPower As Integer = 10
     Dim Opponent As ClassCourse.Course
 
+    Public Level As Integer = 1
+    Public Count As Integer = 0
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         LoadSettings()
@@ -18,6 +21,8 @@
     End Sub
 
     Private Sub GetEnemy()
+
+        Count += 1
 
         Dim EnemyNumber As Integer
 
@@ -44,6 +49,7 @@
     End Sub
 
     Private Sub WriteStates()
+
         TextBoxStudent.Clear()
         TextBoxStudent.Text = "Name = " + Student.Name + vbNewLine
         TextBoxStudent.Text += "Armor = " + Str(Student.Attendence) + vbNewLine
@@ -108,6 +114,8 @@
         HeatExchangerDesign.MidtermFinal = 0
         HeatExchangerDesign.HW = 7
 
+        StudentLevel.Text = "Student Level : " + Str(1)
+
         GetEnemy()
     End Sub
 
@@ -136,9 +144,23 @@
             PlayAgain.ShowDialog()
         End If
 
+        If Count = 5 * Level Then
+            Level += 1
+            StudentLevel.Text = "Student Level : " + Str(Level)
+            Student.DoHW += 1
+            Student.WorkingHard = 2
+            WriteStates()
+            Upgrade.ShowDialog()
+        End If
+
     End Sub
 
     Private Sub Cheat_Click(sender As Object, e As EventArgs) Handles Cheat.Click
+
+        If Student.WorkingHard = 0 Then
+            MsgBox("No Magic Power")
+        End If
+
         If Student.WorkingHard > 0 Then
             Opponent.Loading = Opponent.Loading - MagicPower
             Student.WorkingHard = Student.WorkingHard - 1
@@ -147,6 +169,8 @@
         If Opponent.Loading > 0 Then
             Student.Energy = Student.Energy - (Rnd() * Opponent.HW)
         End If
+
+
         CheckDeath()
     End Sub
 

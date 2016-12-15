@@ -30,6 +30,7 @@ Partial Class Form1
         Me.TextBoxOpponent = New System.Windows.Forms.TextBox()
         Me.LabelKilled = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.StudentLevel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Study
@@ -110,11 +111,22 @@ Partial Class Form1
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "This Semester Pass or Fail ?"
         '
+        'StudentLevel
+        '
+        Me.StudentLevel.AutoSize = True
+        Me.StudentLevel.Font = New System.Drawing.Font("新細明體", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.StudentLevel.Location = New System.Drawing.Point(364, 541)
+        Me.StudentLevel.Name = "StudentLevel"
+        Me.StudentLevel.Size = New System.Drawing.Size(147, 27)
+        Me.StudentLevel.TabIndex = 8
+        Me.StudentLevel.Text = "Student Lv : "
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(822, 605)
+        Me.Controls.Add(Me.StudentLevel)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBoxOpponent)
         Me.Controls.Add(Me.TextBoxStudent)
@@ -138,4 +150,5 @@ Partial Class Form1
     Friend WithEvents TextBoxOpponent As TextBox
     Friend WithEvents LabelKilled As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents StudentLevel As Label
 End Class

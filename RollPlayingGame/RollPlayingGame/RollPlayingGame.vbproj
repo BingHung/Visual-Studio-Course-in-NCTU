@@ -101,6 +101,12 @@
     <Compile Include="PlayAgain.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Upgrade.Designer.vb">
+      <DependentUpon>Upgrade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Upgrade.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PlayAgain.resx">
       <DependentUpon>PlayAgain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upgrade.resx">
+      <DependentUpon>Upgrade.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
