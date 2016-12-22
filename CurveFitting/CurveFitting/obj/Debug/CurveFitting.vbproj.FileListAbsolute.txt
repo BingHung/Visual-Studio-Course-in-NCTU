@@ -1,0 +1,12 @@
+C:\Users\BH\AppData\Local\Temporary Projects\CurveFitting\bin\Debug\CurveFitting.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\CurveFitting\CurveFitting\bin\Debug\CurveFitting.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\CurveFitting\CurveFitting\bin\Debug\CurveFitting.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\CurveFitting\CurveFitting\bin\Debug\CurveFitting.pdb
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\CurveFitting\CurveFitting\bin\Debug\CurveFitting.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\CurveFitting\CurveFitting\obj\Debug\CurveFitting.vbprojResolveAssemblyReference.cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\CurveFitting\CurveFitting\obj\Debug\CurveFitting.Form1.resources
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\CurveFitting\CurveFitting\obj\Debug\CurveFitting.Resources.resources
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\CurveFitting\CurveFitting\obj\Debug\CurveFitting.vbproj.GenerateResource.Cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\CurveFitting\CurveFitting\obj\Debug\CurveFitting.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\CurveFitting\CurveFitting\obj\Debug\CurveFitting.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\CurveFitting\CurveFitting\obj\Debug\CurveFitting.pdb

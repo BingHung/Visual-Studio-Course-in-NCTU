@@ -2,7 +2,7 @@
 
     Public Structure DryerAir
 
-        Public T, RH, Pws, Pw, Pa, nw, mw As Double
+        Public T, RH, Pws, Pw, Pa, nw, mw, P As Double
         Public mPws, mPw, dm As Double
 
     End Structure
@@ -11,7 +11,7 @@
 
         Public V, W_height, A, Patm, R, MolecularWeight As Double
         Public t As Double
-        Public G, dmLM As Double
+        Public G, dmLM, zeta As Double
     End Structure
 
     Public DryerAirIn As New DryerAir
@@ -30,7 +30,7 @@
         DryerInitial.R = 8314.41 '(X)
         DryerInitial.MolecularWeight = 18 '(g/mol)
 
-        DryerInitial.t = 600 '(s)
+        DryerInitial.t = 20 '(s)
 
         '[1] Calculate DryerAirIn
         DryerAirIn.T = 298.15 '(K)
@@ -39,40 +39,74 @@
         DryerAirIn.Pws = Fun_Pws(DryerAirIn.T) '(Pa)
         DryerAirIn.Pw = DryerAirIn.Pws * DryerAirIn.RH '(Pa)
         DryerAirIn.Pa = DryerInitial.Patm - DryerAirIn.Pw / 1000 '(kPa)
-        DryerAirIn.nw = DryerAirIn.Pw * DryerInitial.V / DryerInitial.R / DryerAirIn.T '(mole)
+        DryerAirIn.P = DryerInitial.Patm '(Pa)
+        DryerAirIn.nw = (DryerAirIn.Pw * DryerInitial.V / DryerInitial.R / DryerAirIn.T) * 1000 '(mole)
         DryerAirIn.mw = DryerAirIn.nw * DryerInitial.MolecularWeight '(g)
 
-        '[2] Calculate G , rho 
+        Dim L_RH, R_RH As Double
+        Dim G_iterate As Double
+        L_RH = 0
+        R_RH = 1
+        DryerAirOut.RH = (L_RH + R_RH) / 2
 
-        '   [2-1] guess RH_out
-        DryerAirOut.RH = 0.5
-        DryerAirOut.Pws = DryerAirIn.Pws '(Pa)
-        DryerAirOut.Pw = DryerAirOut.Pws * DryerAirOut.RH '(Pa)
-        DryerAirOut.nw = DryerAirOut.Pw * DryerInitial.V / DryerInitial.R / DryerAirIn.T '(mole)
-        DryerAirOut.mw = DryerAirOut.nw * DryerInitial.MolecularWeight '(g)
+        While (1)
 
-        '   [2-2] Get G
-        '[Not Correct ???] DryerInitial.G = (DryerAirOut.mw - DryerAirIn.mw) / 1000 / DryerInitial.t / DryerInitial.A '(kg/m^2.s)
-        DryerInitial.G = (DryerAirOut.mw - DryerAirIn.mw) / 1000 / DryerInitial.t / DryerInitial.A '(kg/m^2.s)
 
-        '   [2-3] Get mass transfer coef
-        DryerAirIn.mPws = DryerAirIn.Pws / 0.62198 / DryerInitial.Patm / 1000
-        DryerAirIn.mPw = DryerAirIn.Pw / 0.62198 / DryerInitial.Patm / 1000
-        DryerAirIn.dm = DryerAirIn.mPws - DryerAirIn.mPw
+            '[2] Calculate G , rho 
 
-        DryerAirOut.mPws = DryerAirOut.Pws / 0.62198 / DryerInitial.Patm / 1000
-        DryerAirOut.mPw = DryerAirOut.Pw / 0.62198 / DryerInitial.Patm / 1000
-        DryerAirOut.dm = DryerAirOut.mPws - DryerAirOut.mPw
+            '   [2-1] guess RH_out
+            'DryerAirOut.RH = 0.3
+            DryerAirOut.Pws = DryerAirIn.Pws '(Pa)
+            DryerAirOut.Pw = DryerAirOut.Pws * DryerAirOut.RH '(Pa)
+            DryerAirOut.P = DryerAirOut.Pw / 1000 + DryerAirIn.Pa '(Pa)
+            DryerAirOut.nw = (DryerAirOut.Pw * DryerInitial.V / DryerInitial.R / DryerAirIn.T) * 1000 '(mole)
+            DryerAirOut.mw = DryerAirOut.nw * DryerInitial.MolecularWeight '(g)
 
+            '   [2-2] Get G
+            '[Not Correct ???] DryerInitial.G = (DryerAirOut.mw - DryerAirIn.mw) / 1000 / DryerInitial.t / DryerInitial.A '(kg/m^2.s)
+            DryerInitial.G = (DryerAirOut.mw - DryerAirIn.mw) / 1000 / DryerInitial.t / DryerInitial.A '(kg/m^2.s)
+
+            '   [2-3] Get mass transfer coef
+            DryerAirIn.mPws = DryerAirIn.Pws / 0.62198 / DryerAirIn.P / 1000
+            DryerAirIn.mPw = DryerAirIn.Pw / 0.62198 / DryerAirIn.P / 1000
+            DryerAirIn.dm = DryerAirIn.mPws - DryerAirIn.mPw
+
+            DryerAirOut.mPws = DryerAirIn.mPws 'DryerAirOut.Pws / 0.62198 / DryerAirOut.P / 1000
+            DryerAirOut.mPw = DryerAirOut.Pw / 0.62198 / DryerAirOut.P / 1000
+            DryerAirOut.dm = DryerAirOut.mPws - DryerAirOut.mPw
+
+            DryerInitial.dmLM = (DryerAirIn.dm - DryerAirOut.dm) / Math.Log(DryerAirIn.dm / DryerAirOut.dm)
+            'DryerInitial.zeta = DryerInitial.G / DryerInitial.dmLM
+            DryerInitial.zeta = 0.0004013
+
+            G_iterate = DryerInitial.zeta * DryerInitial.dmLM
+
+            If (DryerInitial.G - G_iterate) > 0.0000001 Then
+                R_RH = DryerAirOut.RH
+                DryerAirOut.RH = (L_RH + R_RH) / 2
+            ElseIf (G_iterate - DryerInitial.G) > 0.0000001 Then
+                L_RH = DryerAirOut.RH
+                DryerAirOut.RH = (L_RH + R_RH) / 2
+            Else
+                Exit While
+            End If
+
+        End While
+        Console.Write("RH_out = {0} , G = {1} , G_iterate = {2}", DryerAirOut.RH, DryerInitial.G, G_iterate)
 
 
         '[3] Calculate DryerAirOut
+        'Dim mPW_New As Double
+        'mPW_New = DryerAirIn.mPws * (1 - Math.Exp(-1 * DryerInitial.zeta * DryerInitial.A * 5535.8 / 1.15 / DryerInitial.V)) + DryerAirIn.mPw
 
-
-
+        'Dim t As Double
+        't = -1 * (1.15 * DryerInitial.V / DryerInitial.zeta / DryerInitial.A) * Math.Log(1 - 0.04415 / DryerAirIn.mPws - DryerAirIn.mPw)
 
         'Console.WriteLine(Pws(298.15))
         Console.Read()
+
+
+        '(t,G,G_iterate)
 
     End Sub
 
