@@ -1,0 +1,12 @@
+C:\Users\BH\AppData\Local\Temporary Projects\Huffman\bin\Debug\Huffman.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Huffman\Huffman\bin\Debug\Huffman.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Huffman\Huffman\bin\Debug\Huffman.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Huffman\Huffman\bin\Debug\Huffman.pdb
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Huffman\Huffman\bin\Debug\Huffman.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Huffman\Huffman\obj\Debug\Huffman.vbprojResolveAssemblyReference.cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Huffman\Huffman\obj\Debug\Huffman.Form1.resources
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Huffman\Huffman\obj\Debug\Huffman.Resources.resources
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Huffman\Huffman\obj\Debug\Huffman.vbproj.GenerateResource.Cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Huffman\Huffman\obj\Debug\Huffman.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Huffman\Huffman\obj\Debug\Huffman.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\Huffman\Huffman\obj\Debug\Huffman.pdb
