@@ -1,0 +1,11 @@
+C:\Users\BH\AppData\Local\Temporary Projects\ArrayStructPassing\bin\Debug\ArrayStructPassing.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\ArrayStructPassing\ArrayStructPassing\bin\Debug\ArrayStructPassing.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\ArrayStructPassing\ArrayStructPassing\bin\Debug\ArrayStructPassing.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\ArrayStructPassing\ArrayStructPassing\bin\Debug\ArrayStructPassing.pdb
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\ArrayStructPassing\ArrayStructPassing\bin\Debug\ArrayStructPassing.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\ArrayStructPassing\ArrayStructPassing\obj\Debug\ArrayStructPassing.vbprojResolveAssemblyReference.cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\ArrayStructPassing\ArrayStructPassing\obj\Debug\ArrayStructPassing.Resources.resources
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\ArrayStructPassing\ArrayStructPassing\obj\Debug\ArrayStructPassing.vbproj.GenerateResource.Cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\ArrayStructPassing\ArrayStructPassing\obj\Debug\ArrayStructPassing.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\ArrayStructPassing\ArrayStructPassing\obj\Debug\ArrayStructPassing.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\ArrayStructPassing\ArrayStructPassing\obj\Debug\ArrayStructPassing.pdb

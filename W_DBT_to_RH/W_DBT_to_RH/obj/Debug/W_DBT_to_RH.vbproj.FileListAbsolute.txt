@@ -1,0 +1,11 @@
+C:\Users\BH\AppData\Local\Temporary Projects\W_DBT_to_RH\bin\Debug\W_DBT_to_RH.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\W_DBT_to_RH\W_DBT_to_RH\bin\Debug\W_DBT_to_RH.exe.config
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\W_DBT_to_RH\W_DBT_to_RH\bin\Debug\W_DBT_to_RH.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\W_DBT_to_RH\W_DBT_to_RH\bin\Debug\W_DBT_to_RH.pdb
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\W_DBT_to_RH\W_DBT_to_RH\bin\Debug\W_DBT_to_RH.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\W_DBT_to_RH\W_DBT_to_RH\obj\Debug\W_DBT_to_RH.vbprojResolveAssemblyReference.cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\W_DBT_to_RH\W_DBT_to_RH\obj\Debug\W_DBT_to_RH.Resources.resources
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\W_DBT_to_RH\W_DBT_to_RH\obj\Debug\W_DBT_to_RH.vbproj.GenerateResource.Cache
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\W_DBT_to_RH\W_DBT_to_RH\obj\Debug\W_DBT_to_RH.exe
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\W_DBT_to_RH\W_DBT_to_RH\obj\Debug\W_DBT_to_RH.xml
+C:\Users\BH\Dropbox\VS_MASTER\VisualStudioCourse\W_DBT_to_RH\W_DBT_to_RH\obj\Debug\W_DBT_to_RH.pdb
