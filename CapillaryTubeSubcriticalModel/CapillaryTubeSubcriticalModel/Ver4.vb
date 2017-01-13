@@ -53,7 +53,7 @@
 
         ' Little tricks
         Cap.Out_x = 0
-        Cap.Out_Temp = 40 + 273.15 'K
+        Cap.Out_Temp = 308.040625 '40 + 273.15 'K
         Cap.SectionCout = 0
 
         ' Initial Settings
@@ -61,9 +61,9 @@
         'Cap.TubeLength = 2 'm
         'Cap.dL = Cap.TubeLength / Cap.Section
 
-        Cap.Geo_InnerDiameter = 1.63 / 1000 '(ID) m
+        Cap.Geo_InnerDiameter = 0.0023 '1.63 / 1000 '(ID) m
         Cap.Geo_CrossSectionArea = Math.PI * Cap.Geo_InnerDiameter ^ 2 / 4 '(A) m^2
-        Cap.MFR = 0.03 '(w) kg/s
+        Cap.MFR = 0.01 '0.048608 '0.03 '(w) kg/s
         Cap.Influid = "R22"
         Cap.w_dividedBy_A = Cap.MFR / Cap.Geo_CrossSectionArea
 
@@ -171,6 +171,7 @@
             Console.WriteLine()
             Cap.SectionCout = Cap.SectionCout + 1
         End While
+        MsgBox("Cap Done")
         Console.Read()
 
 

@@ -47,8 +47,8 @@
 
 
     Sub Main()
-        'Cap_Ver3()
-        Cap_Ver4()
+        Cap_Ver3()
+        'Cap_Ver4()
     End Sub
 
 End Module

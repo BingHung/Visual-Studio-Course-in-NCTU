@@ -53,18 +53,17 @@
 
         ' Little tricks
         Cap.Out_x = 0
-        Cap.Out_Temp = 40 + 273.15 'K
         Cap.SectionCout = 0
+        Cap.Section = 10
 
-        ' Initial Settings
-        Cap.Section = 20
-        Cap.TubeLength = 2 'm
-        Cap.dL = Cap.TubeLength / Cap.Section
-
-        Cap.Geo_InnerDiameter = 1.63 / 1000 '(ID) m
-        Cap.Geo_CrossSectionArea = Math.PI * Cap.Geo_InnerDiameter ^ 2 / 4 '(A) m^2
-        Cap.MFR = 0.001 '(w) kg/s
+        Cap.MFR = 0.015 '(w) kg/s
+        Cap.Geo_InnerDiameter = 0.0023 '1.63 / 1000 '(ID) m
+        Cap.Out_Temp = 308.040625 '40 + 273.15 'K
+        Cap.TubeLength = 4 '1.93345257466 'm
         Cap.Influid = "R22"
+
+        Cap.dL = Cap.TubeLength / Cap.Section
+        Cap.Geo_CrossSectionArea = Math.PI * Cap.Geo_InnerDiameter ^ 2 / 4 '(A) m^2
         Cap.w_dividedBy_A = Cap.MFR / Cap.Geo_CrossSectionArea
 
 
@@ -143,9 +142,10 @@
                 P2_Iteration = Cap.In_P - Cap.w_dividedBy_A * (Cap.Out_Velocty - Cap.In_Velocty) - Cap.fm * TubeLength * Cap.Vm * Cap.w_dividedBy_A / Cap.Geo_InnerDiameter / 2
 
 
-                Console.WriteLine("P2 : {0}, P2_Iteration : {1} , T2 : {2}", Cap.Out_P, P2_Iteration, Cap.Out_Temp)
+                'Console.WriteLine("P2 : {0}, P2_Iteration : {1} , T2 : {2}", Cap.Out_P, P2_Iteration, Cap.Out_Temp)
                 StopFlag = StopFlag + 1
-                If StopFlag > 15 Then
+                If StopFlag > 25 Then
+                    MsgBox("Diverge")
                     Exit While
                 End If
 
@@ -158,14 +158,15 @@
                 ElseIf Math.Abs(P2_Iteration / 1000 - Cap.Out_P / 1000) < 0.1 Then
                     'Console.WriteLine("Converge")
                     Console.WriteLine("Count : {0}", Cap.SectionCout)
-                    'Console.WriteLine("P2 : {0}, P2_Iteration : {1} , T2 : {2}", Cap.Out_P, P2_Iteration, Cap.Out_Temp)
+                    Console.WriteLine("P2 : {0}, P2_Iteration : {1} , T2 : {2}", Cap.Out_P, P2_Iteration, Cap.Out_Temp)
 
                     If ChokedCheck > Cap.Out_s Then
                         Console.WriteLine("Error Choked")
                     End If
                     ChokedCheck = Cap.Out_s
-                    'Console.WriteLine("h2 : {0} , s2 : {1}", Cap.Out_h, Cap.Out_s)
+                    Console.WriteLine("h2 : {0} , s2 : {1}", Cap.Out_h, Cap.Out_s)
 
+                    Console.WriteLine()
                     Exit While
                 End If
 
@@ -174,6 +175,7 @@
             StopFlag = 0
             Cap.SectionCout = Cap.SectionCout + 1
         End While
+        MsgBox("Cap_Done")
         Console.Read()
 
 
